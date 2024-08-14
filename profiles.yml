@@ -1,0 +1,14 @@
+prism_acquire_project:
+  outputs:
+    dev:
+      dataset: Ajmal
+      job_execution_timeout_seconds: 300
+      job_retries: 1
+      keyfile: ./secrets/prism-insights-7eb02ee1f27f.json
+      location: US
+      method: service-account
+      priority: interactive
+      project: prism-insights
+      threads: 4
+      type: bigquery
+  target: dev
